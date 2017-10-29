@@ -15,5 +15,5 @@ Code in this repo provides a production-ready and highly-scalable implementation
 - users see a realtime updates on view page as AJAX calls are made every second with GET request to API endpoint for selected poll.
 ```
 ```
-This is was made as a learning exercise while following an amazing book: GO BLUEPRINTS by Mat Ryer. (Thanks.)
+Made as a learning exercise while following an amazing book: GO BLUEPRINTS by Mat Ryer. (Thank You!)
 ```
