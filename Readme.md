@@ -7,7 +7,7 @@ Technically, a distributed system with separate components communicating with ea
 Code in this repo provides a real-world example to develop production-ready and highly-scalable system,
 within a context of a simple use case of social polling on twitter, with the following flow:
 
-- user click on "Create Poll" button on website entering title & options for a poll.
+- user clicks on "Create Poll" button on website entering title & options for a poll.
 - Javscript running on website encodes data in JSON passing it to body of POST request to our REST API.
 - API after recieving request, validates API key, sets up Database session, storing vars in map(dict),
   calls approriate function and stores new poll in __MongoDB__ Database.
