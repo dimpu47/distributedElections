@@ -10,7 +10,7 @@ within a context of a simple use case of social polling on twitter, with the fol
 - user clicks on "Create Poll" button on website entering title & options for a poll.
 - Javscript running on website encodes data in JSON passing it to body of POST request to our REST API.
 - API after recieving request, validates API key, sets up Database session, storing vars in map(dict),
-  calls approriate function and stores new poll in __MongoDB__ Database.
+  calls approriate function and stores new poll in MongoDB.
 - API redirects to result's view page for newly created poll.
 - Meanwhile twittervotes program loads polls from DB opens connection to Twitter API filtering on hashtags, 
   provided as options from web for that poll. as new hasshtags are notices or as new votes come in, 
@@ -21,5 +21,5 @@ within a context of a simple use case of social polling on twitter, with the fol
   to API endpoint for selected poll.
 ```
 ```
-Made as a learning exercise while following an amazing book: GO BLUEPRINTS by Mat Ryer. (Thank You!)
+Made as a learning exercise while reading GO BLUEPRINTS by Mat Ryer.
 ```
